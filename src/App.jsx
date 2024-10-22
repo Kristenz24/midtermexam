@@ -1,8 +1,11 @@
+import './styles/global.css'
+import './styles/App.css'
+import Calculator from "./pages/Calculator"
+
 export default function App() {
-  return (
+  return(
     <>
-      <h1>KRISTENZ MINGOY - IT3A</h1>
-      <p><em>10 Things That Require Zero Talent</em></p>
+      <Calculator />
     </>
   )
 }
